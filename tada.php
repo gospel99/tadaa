@@ -32,7 +32,7 @@ function check(){
 	$h[] = "Save-Data: on";
 	$h[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36";
 	$h[] = "Content-Type: application/json;charset=UTF-8";
-	$h[] = "Referer: https://e.gift.id/u/16281bqpoj662";
+	$h[] = "Referer: https://e.gift.id/u/83qvhoxw4kt46";
 	$h[] = "Accept-Language: en-US,en;q=0.9,id;q=0.8";
 	$x = curl("https://e.gift.id/api/egifts/detail/".$kode);
 	return json_encode(array("https://e.gift.id/s/$kode",$x));
